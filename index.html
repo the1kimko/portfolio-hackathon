@@ -7,36 +7,234 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <h1>Komfort Kimko</h1>
-        <p>Home | Projects | Blogs | Contact</p>
+        <div class="container">
+            <div class="hero">
+                <h1>Komfort Kimko</h1>
+                <p>Full Stack Developer & Tech Enthusiast</p>
+            </div>
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>Welcome to My Portfolio</h2>
-            <p>This is a showcase of my work and projects. Feel free to explore!</p>
-        </section>
 
-        <section>
-            <h2>Featured Projects</h2>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
             <ul>
-                <li>Project 1: Description of project 1.</li>
-                <li>Project 2: Description of project 2.</li>
-                <li>Project 3: Description of project 3.</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="profile-img">
+                        <img src="images/kim.jpg" alt="Komfort Kimko">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        Hello! I'm Komfort Kimko, a passionate full-stack developer with a love for creating innovative solutions
+                        and beautiful user experiences. My journey in technology started with curiosity
+                        and has evolved into a deep passion for building applications that make a difference.
+                    </p>
+                    <p>
+                        I believe in writing clean, efficient code and staying up-to-date with the latest technologies.
+                        When I'm not coding, you'll find me exploring new frameworks, contributing to open source projects,
+                        or sharing knowledge with the developer community.
+                    </p>
+                    <p>
+                        My goal is to create impactful software that solves real-world problems while continuously learning and growing as a developer.
+                    </p>
+                </div>
+            </div>
         </section>
 
-        <section>
-            <h2>Blogs</h2>
-            <p>Check out my latest blogs on various topics related to my work.</p>
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title">Programming Languages & Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Databases & Tools</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section>
-            <h2>Contact Me</h2>
-            <p>If you would like to get in touch, please reach out via email or social media.</p>
+        <!-- Education Section -->
+        <section id="education">
+            <div class="container">
+                <h2 class="section-title">Educational Background</h2>
+                <div class="education-content">
+                    <div>
+                        <div class="education-item">
+                            <h3><strong>University of Nairobi</strong></h3>
+                            <p>Bachelor of Science in Civil Engineering</p>
+                            <p>Graduated: 2020</p>
+                        </div>
+                        <div class="education-item">
+                            <h3>Certifications</h3>
+                            <p><strong>Software Engineering Course</strong> | 2024</p>
+                            <p><strong>Responsive Web Design</strong> | 2023</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#" class="download-cv">Download CV</a>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <!-- Interests Section -->
+        <section id="Interests">
+            <div class="container">
+                <h2 class="section-title">Professional Interests</h2>
+                <div class="interests-grid">
+                    <div class="interest-item">
+                        <div class="interest-icon">🚀</div>
+                        <h3>Innovation</h3>
+                        <p>Exploring cutting-edge technologies and implementing creative solutions to complex problems.</p>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">🔧</div>
+                        <h3>Open Source</h3>
+                        <p>Contributing to open source projects and collaborating with the global developer community.</p>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">📚</div>
+                        <h3>Continuous Learning</h3>
+                        <p>Staying updated with the latest trends in technology and enhancing my skills through online courses.</p>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">🎨</div>
+                        <h3>UI/UX Design</h3>
+                        <p>Creating beautiful, intuitive user interfaces that provide exceptional user experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-content">
+                                <h3 class="project-title">E-Commerce Application</h3>
+                                <p>A complete e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link">Live Demo</a>
+                                    <a href="#" class="">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">Task Management App</div>
+                            <div class="project-content">
+                                <h3 class="project-title">Project Management Tool</h3>
+                                <p>A collaborative project management application with real-time updates, built using Vue.js and Firebase.</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link">Live Demo</a>
+                                    <a href="#" class="project-link">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">Weather Dashboard</div>
+                            <div class="project-content">
+                                <h3 class="project-title">Weather Analytics Dashboard</h3>
+                                <p>An interactive weather dashboard with data visualization, built using Python Django and Chart.js.</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link">Live Demo</a>
+                                    <a href="#" class="project-link">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <form class="contact-form" action="#contact" method="get">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
     <footer>
-        © [2025] All rights reserved by Kim K
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2025 Komfort Kimko. All rights reserved.</p>
+        </div>
     </footer>
+
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top visible">
+        <i class="fas fa-arrow-up"></i>
+    </a>
 </body>
 </html>
